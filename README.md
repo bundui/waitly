@@ -1,4 +1,4 @@
-![image info](https://bundui-images.netlify.app/templates/waitly/02.png)
+![image info](github.com/bundui/waitly/blob/main/public/preview.png?raw=true)
 
 ## Get Started
 

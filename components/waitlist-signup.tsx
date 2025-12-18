@@ -9,7 +9,7 @@ import { InstagramIcon } from "@/components/icons/instagram-icon";
 import { SocialIcon } from "@/components/social-icon";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { motion, easeOut} from "motion/react";
-import {GithubIcon} from "lucide-react";
+import {GithubIcon} from "@/components/icons/github-icon";
 
 const variants = {
   hide: {opacity: 0,
