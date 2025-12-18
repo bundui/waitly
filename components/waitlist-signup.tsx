@@ -9,6 +9,7 @@ import { InstagramIcon } from "@/components/icons/instagram-icon";
 import { SocialIcon } from "@/components/social-icon";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 import { motion, easeOut} from "motion/react";
+import {GithubIcon} from "lucide-react";
 
 const variants = {
   hide: {opacity: 0,
@@ -64,38 +65,33 @@ export function WaitlistSignup() {
       </motion.div>
       <div className="pt-8 flex justify-center space-x-6">
         <SocialIcon
+          href="https://github.com/bundui/waitly"
+          target="_blank"
+          icon={<GithubIcon className="w-6 h-6" />}
+        />
+        <SocialIcon
           href="https://x.com/TobyBelhome"
           target="_blank"
-          rel="noopener noreferrer"
-          aria-label="X (formerly Twitter)"
           icon={<XIcon className="w-6 h-6" />}
         />
         <SocialIcon
           href="https://instagram.com"
           target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
           icon={<InstagramIcon className="w-6 h-6" />}
         />
         <SocialIcon
           href="https://discord.com"
           target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Discord"
           icon={<DiscordIcon className="w-6 h-6" />}
         />
         <SocialIcon
           href="https://facebook.com"
           target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Facebook"
           icon={<FacebookIcon className="w-6 h-6" />}
         />
         <SocialIcon
           href="https://linkedin.com"
           target="_blank"
-          rel="noopener noreferrer"
-          aria-label="LinkedIn"
           icon={<LinkedInIcon className="w-6 h-6" />}
         />
       </div>
