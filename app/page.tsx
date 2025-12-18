@@ -1,11 +1,11 @@
 "use client";
 
 import { Toaster } from "@/components/ui/sonner";
-import { WaitlistSignup } from "./components/waitlist-signup";
+import { WaitlistSignup } from "@/components/waitlist-signup";
 
 export default function Page() {
   return (
-    <main className="min-h-screen flex items-center justify-center bg-radial from-white dark:from-gray-700 to-gray-300 dark:to-gray-900">
+    <main className="min-h-screen flex items-center justify-center bg-radial from-white dark:from-gray-800 to-gray-200 dark:to-gray-900">
       <div className="content relative z-10 w-full">
         <WaitlistSignup />
       </div>

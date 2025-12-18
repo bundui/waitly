@@ -1,21 +1,23 @@
+import React from "react";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cal_Sans as FontHeading, Plus_Jakarta_Sans as FontSans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const fontSans = FontSans({
+    subsets: ["latin"],
+    variable: "--font-sans"
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const fontHeading = FontHeading({
+    subsets: ["latin"],
+    variable: "--font-heading",
+    weight: "400"
 });
 
 export const metadata: Metadata = {
-  title: "Waitlist Next.js Template",
+  title: "Waitly: Waiting list Next.js template.",
   description:
-    "A simple and useful waitlist Next.js template. Free and open source.",
+    "A simple and useful waiting list Next.js template. It's free and open source. Built with React, Tailwind CSS, and shadcn/ui. Typescript compatible.",
 };
 
 export default function RootLayout({
@@ -26,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={`${fontSans.variable} ${fontHeading.variable} font-sans antialiased`}
       >
         <div className="bg-pattern"></div>
         {children}
