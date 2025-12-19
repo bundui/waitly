@@ -1,4 +1,4 @@
-![image info](github.com/bundui/waitly/blob/main/public/preview.png?raw=true)
+![image info](https://raw.githubusercontent.com/bundui/waitly/refs/heads/main/public/preview.png)
 
 ## Get Started
 
